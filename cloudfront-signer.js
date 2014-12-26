@@ -1,7 +1,7 @@
 var util = require('util');
 
 export.keyPath = 'PATH_TO_KEY_FILE';
-export.keyPairId = 'YOUR_KEY_PAIR_ID";
+export.keyPairId = 'YOUR_KEY_PAIR_ID';
 
 function cannedPolicyStream(url, offSet) {
 	//offSet time to expires in seconds.
